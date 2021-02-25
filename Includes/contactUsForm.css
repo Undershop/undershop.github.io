@@ -1,0 +1,48 @@
+#cart_clear {
+  text-align: center;
+  font-family: "Poppins";
+  color: gray;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 2px 0;
+  transition: 200ms ease-in-out;
+}
+#cart_clear:hover {
+  color: black;
+}
+.cart_remove {
+  text-align: end;
+  font-family: "Poppins";
+  color: gray !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  cursor: pointer;
+  margin: 2px 0;
+  transition: 200ms ease-in-out;
+}
+
+.cart_remove:hover {
+  color: black !important;
+}
+
+.clicked {
+  background-color: black;
+  outline: none;
+  cursor: pointer;
+  color: whitesmoke;
+  border: 1px solid black;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+.cart-button.clicked span.added {
+  animation: txt2 1.5s ease-in-out forwards !important;
+  color: whitesmoke !important;
+}
+
+#wrap .statusmsg {
+  font-size: 12px; /* Set message font size  */
+  padding: 3px; /* Some padding to make some more space for our text  */
+  background: #ededed; /* Add a background color to our status message   */
+  border: 1px solid #dfdfdf; /* Add a border arround our status message   */
+}
